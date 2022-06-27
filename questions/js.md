@@ -3,31 +3,47 @@
   <span>JavaScript:</span>
 </h3>
 
-- [Типы данных в JavaScript?](https://youtu.be/ycYp7CYOnO0?t=471)
-- [Разница между `==` и `===` (нестрогое/строгое равенство)?](https://youtu.be/ycYp7CYOnO0?t=529)
-- [Что такое Strict mode в JavaScript?](https://youtu.be/ycYp7CYOnO0?t=577)
-- [Разница между function declaration и function expression?](https://youtu.be/ycYp7CYOnO0?t=632)
-- [Разница между `null` и `undefined`?](https://youtu.be/G7hLwudGWL4?t=511)
-- [Операторы «И» и «ИЛИ» (`&&` и `||`)?](https://youtu.be/G7hLwudGWL4?t=617)
-- [Типы таймеров в JavaScript?](https://youtu.be/G7hLwudGWL4?t=690)
-- [Что такое поднятие (Hoisting)?](https://youtu.be/G7hLwudGWL4?t=552)
-- [Что такое область видимости (Scope)?](https://youtu.be/1eIRTdgzHtw?t=282)
-- [Разница между `var`, `let` и `const`?](https://youtu.be/1eIRTdgzHtw?t=362)
-- [Что такое замыкание (Closure)?](https://youtu.be/kx3dR6ztICU?t=284)
-- [Что обозначает `this` в JavaScript?](https://youtu.be/rlWgI7AvV18?t=507)
-- [Что такое функции высшего порядка (Higher Order Functions)?](https://youtu.be/1eIRTdgzHtw?t=426)
-- [Как превратить любой тип данных в булевый? Перечислите ложные значения в JS?](https://youtu.be/CjdCxxqObaM?t=368)
-- [Методы строк в JavaScript?](https://youtu.be/CjdCxxqObaM?t=415)
-- [Методы массивов в JavaScript?](https://youtu.be/CjdCxxqObaM?t=538)
-- [Что такое чистая функция?](https://youtu.be/rlWgI7AvV18?t=401)
-- [Разница между `.forEach` и `.map()`?](https://youtu.be/rlWgI7AvV18?t=456)
-- [Разница между `.call()`, `.apply()` и `bind()`?](https://youtu.be/rlWgI7AvV18?t=548)
-- [Почему в JS функции называют объектами первого класса?](https://youtu.be/rlWgI7AvV18?t=624)
-- [Как определить наличие свойства в объекте?](https://youtu.be/kx3dR6ztICU?t=226)
-- [Что такое IIFE?](https://youtu.be/kx3dR6ztICU?t=396)
-- [Что такое псевдомассив `arguments`?](https://youtu.be/kx3dR6ztICU?t=442)
-- [Разница между host-объектами и нативными объектами?](https://youtu.be/kx3dR6ztICU?t=484)
-- [Почему результат сравнения 2х объектов это `false`?](https://youtu.be/IooJ3P2VUYs?t=100)
+- [Типы данных в JavaScript?](https://youtu.be/ycYp7CYOnO0?t=471) [Common]
+- [Разница между `==` и `===` (нестрогое/строгое равенство)?](https://youtu.be/ycYp7CYOnO0?t=529) [Common]
+- [Что такое Strict mode в JavaScript?](https://youtu.be/ycYp7CYOnO0?t=577) [Common/Middle]
+- [Разница между function declaration и function expression?](https://youtu.be/ycYp7CYOnO0?t=632) [Common]
+- [Разница между `null` и `undefined`?](https://youtu.be/G7hLwudGWL4?t=511) [Common]
+- [Операторы «И» и «ИЛИ» (`&&` и `||`)?](https://youtu.be/G7hLwudGWL4?t=617) [Common]
+  - statement1 && statement2
+  - statement2 || statement2
+- [Типы таймеров в JavaScript?](https://youtu.be/G7hLwudGWL4?t=690) [Common]
+- [Что такое поднятие (Hoisting)?](https://youtu.be/G7hLwudGWL4?t=552) [Common]
+  - ```javascript
+    console.log(a); // undefined
+    var a = 'Hello, World!'; 
+    console.log(a); // Hello, Wolrd!
+    ```
+- [Что такое область видимости (Scope)?](https://youtu.be/1eIRTdgzHtw?t=282) [Common]
+- [Разница между `var`, `let` и `const`?](https://youtu.be/1eIRTdgzHtw?t=362) [Common]
+- [Что такое замыкание (Closure)?](https://youtu.be/kx3dR6ztICU?t=284) [Common/Middle]
+- [Что обозначает `this` в JavaScript?](https://youtu.be/rlWgI7AvV18?t=507) [Common/Middle]
+- [Что такое функции высшего порядка (Higher Order Functions)?](https://youtu.be/1eIRTdgzHtw?t=426) [Middle]
+- [Как превратить любой тип данных в булевый? Перечислите ложные значения в JS?](https://youtu.be/CjdCxxqObaM?t=368) [Common]
+- [Методы строк (string) в JavaScript?](https://youtu.be/CjdCxxqObaM?t=415) [Common/Middle]
+- [Методы массивов (array) в JavaScript?](https://youtu.be/CjdCxxqObaM?t=538) [Common/Middle]
+- - [Разница между `slice` и `splice`?](https://youtu.be/XtQPrt8G0n8?t=679) [Common/Middle]
+- [Что такое чистая функция?](https://youtu.be/rlWgI7AvV18?t=401) 
+  - ```javascript
+    const a = (counter) => {
+        console.log(counter) // do not side effect
+        return counter + 1
+    }
+    ```
+- [Разница между `.forEach` и `.map()`?](https://youtu.be/rlWgI7AvV18?t=456) [Common/Middle]
+- [Разница между `.call()`, `.apply()` и `bind()`?](https://youtu.be/rlWgI7AvV18?t=548) [Middle]
+- [Почему в JS функции называют объектами первого класса?](https://youtu.be/rlWgI7AvV18?t=624) [Middle]
+- [Как определить наличие свойства в объекте?](https://youtu.be/kx3dR6ztICU?t=226) [Middle]
+- [Что такое IIFE?](https://youtu.be/kx3dR6ztICU?t=396) [Common/Middle]
+  - Immediately invoked function expression 
+- [Что такое псевдомассив (ключевое значение) `arguments`?](https://youtu.be/kx3dR6ztICU?t=442) [Common/Middle]
+- [Разница между host-объектами и нативными объектами?](https://youtu.be/kx3dR6ztICU?t=484) [Middle]
+  - Host-обьекты - наследованые обьекты в браузере, нативными могут являться String, Math, RegExp, Object, Function
+- [Почему результат сравнения 2х объектов это `false`?](https://youtu.be/IooJ3P2VUYs?t=100) [Common/Middle]
 - [Что такое прототипное наследование? Как создать объект без прототипа?](https://youtu.be/IooJ3P2VUYs?t=154)
 - [Почему расширение нативных JavaScript-объектов это плохая практика](https://youtu.be/IooJ3P2VUYs?t=202)
 - [Что такое `NaN`? Как определить, что значение равно `NaN`?](https://youtu.be/IooJ3P2VUYs?t=266)
@@ -64,8 +80,7 @@
 - [Какие методы используются в регулярных выражениях?](https://youtu.be/XtQPrt8G0n8?t=495)
 - [Что такое полифил (polyfill)?](https://youtu.be/XtQPrt8G0n8?t=557)
 - [Что такое `switch/case`? Правила использования `switch/case`?](https://youtu.be/XtQPrt8G0n8?t=600)
-- [Разница между `slice` и `splice`?](https://youtu.be/XtQPrt8G0n8?t=679)
-- [Типы функций по способности принимать другие функции?](https://youtu.be/XtQPrt8G0n8?t=726)
+- [Типы функций по способности принимать другие функции?](https://youtu.be/XtQPrt8G0n8?t=726) 
 - [Что такое выражения (expression) и инструкции (statement) в JavaScript?](https://youtu.be/VYQl2GhbCUs?t=706)
-- [Разница между `.some()` и `.every()`?](https://youtu.be/VYQl2GhbCUs?t=762)
-- [Как сгенерировать случайное число в JavaScript?](https://youtu.be/VYQl2GhbCUs?t=801)
+- [Разница между `.some()` и `.every()`?](https://youtu.be/VYQl2GhbCUs?t=762) [Middle]
+- [Как сгенерировать случайное число в JavaScript?](https://youtu.be/VYQl2GhbCUs?t=801) [Common/Middle]

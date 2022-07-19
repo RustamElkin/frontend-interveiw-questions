@@ -8,9 +8,10 @@
 - [Что такое Strict mode в JavaScript?](https://youtu.be/ycYp7CYOnO0?t=577) [Common/Middle]
 - [Разница между function declaration и function expression?](https://youtu.be/ycYp7CYOnO0?t=632) [Common]
 - [Разница между `null` и `undefined`?](https://youtu.be/G7hLwudGWL4?t=511) [Common]
-- [Операторы «И» и «ИЛИ» (`&&` и `||`)?](https://youtu.be/G7hLwudGWL4?t=617) [Common]
+- [Операторы «И» и «ИЛИ» (`&&` и `||` и `??`)?](https://youtu.be/G7hLwudGWL4?t=617) [Common]
   - statement1 && statement2
   - statement2 || statement2
+  - statement2 ?? statement2
 - [Типы таймеров в JavaScript?](https://youtu.be/G7hLwudGWL4?t=690) [Common]
 - [Что такое поднятие (Hoisting)?](https://youtu.be/G7hLwudGWL4?t=552) [Common]
   - ```javascript

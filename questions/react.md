@@ -3,55 +3,59 @@
   <span>React:</span>
 </h3>
 
-- [Что такое React?](https://youtu.be/7TvS0iKR3_c?t=638)
-- [Перечислите особенности React?](https://youtu.be/7TvS0iKR3_c?t=671)
-- [Что такое Virtual DOM? Как он работает с React?](https://youtu.be/7TvS0iKR3_c?t=740)
-- [Для чего нужен атрибут `key` при рендере списков?](https://youtu.be/yvOXvZ8aEFo?t=526)
-- [Что такое `PureComponent`?](https://youtu.be/yvOXvZ8aEFo?t=581)
-- [Что такое Компонент высшего порядка (Higher-Order Component / HOC)?](https://youtu.be/yvOXvZ8aEFo?t=637)
-- [Разница между управляемыми (controlled) и не управляемыми (uncontrolled) компонентами?](https://youtu.be/yvOXvZ8aEFo?t=684)
-- [Методы жизненного цикла компонента в React?](https://youtu.be/RpcB5jnJvcI?t=35)
-- [Стадии жизненного цикла компонента в React?](https://youtu.be/RpcB5jnJvcI?t=173)
-- [Что такое React Reconciliation?](https://youtu.be/RpcB5jnJvcI?t=271)
-- [Что такое портал (`Portal`)?](https://youtu.be/RpcB5jnJvcI?t=342)
-- [Что такое контекст (`Context`)?](https://youtu.be/RpcB5jnJvcI?t=390)
-- [Что такое React хуки (Hooks)?](https://youtu.be/RpcB5jnJvcI?t=475)
-- [Что Такое `JSX`?](https://youtu.be/RpcB5jnJvcI?t=571)
-- [Разница между состоянием(`state`) и пропсами(`props`)?](https://youtu.be/RpcB5jnJvcI?t=621)
-- [Что такое React Fiber?](https://youtu.be/RpcB5jnJvcI?t=689)
-- [Что такое фрагмент (`Fragment`)? Почему фрагмент лучше, чем `div`?](https://youtu.be/RpcB5jnJvcI?t=689)
-- [Что такое синтетические события в React?](https://youtu.be/81yRgVQ1ciM?t=34)
-- [Что такое React-ссылка (Ref)? Как создать ссылку?](https://youtu.be/81yRgVQ1ciM?t=69)
-- [Разница между теневым (Shadow) и виртуальным (Virtual) DOM?](https://youtu.be/81yRgVQ1ciM?t=112)
-- [Назовите преимущества использования React?](https://youtu.be/81yRgVQ1ciM?t=170)
-- [Что такое условный рендеринг (Conditional Rendering)? Как его выполнить?](https://youtu.be/81yRgVQ1ciM?t=224)
-- [Что такое компонент-переключатель (Switching Component)?](https://youtu.be/81yRgVQ1ciM?t=265)
-- [Разница между `React` и `ReactDOM`?](https://youtu.be/81yRgVQ1ciM?t=305)
-- [Разница между компонентом и контейнером?](https://youtu.be/81yRgVQ1ciM?t=370)
-- [Как React обрабатывает, или ограничивает использование пропсов определенного типа?](https://youtu.be/81yRgVQ1ciM?t=413)
-- [Что такое строгий режим в React? Его преимущества?](https://youtu.be/81yRgVQ1ciM?t=469)
-- [Что такое «бурение пропсов» (Prop Drilling)? Как его избежать?](https://youtu.be/81yRgVQ1ciM?t=532)
-- [Что такое «опрос» (Polling)? Как его реализовать в React?](https://youtu.be/81yRgVQ1ciM?t=597)
-- [Разница между элементом и компонентом?](https://youtu.be/81yRgVQ1ciM?t=663)
-- [Что такое `ReactDOMServer`?](https://youtu.be/81yRgVQ1ciM?t=763)
-- [Что такое предохранители (Error Boundaries)?](https://youtu.be/HBSAjY-xh3k?t=36)
-- [Что такое «ленивая» (Lazy) функция?](https://youtu.be/HBSAjY-xh3k?t=103)
-- [Разница между рендерингом и монтированием?](https://youtu.be/HBSAjY-xh3k?t=149)
-- [Что такое `сhildren`?](https://youtu.be/HBSAjY-xh3k?t=191)
-- [Что такое события указателя (Pointer Events)?](https://youtu.be/HBSAjY-xh3k?t=239)
-- [Что такое инверсия наследования (Inheritance Inversion)?](https://youtu.be/HBSAjY-xh3k?t=301)
-- [Как в React реализовать двустороннее связывание данных?](https://youtu.be/HBSAjY-xh3k?t=355)
-- [Разница между классовым и функциональным компонентами?](https://youtu.be/xZLxdts7ZW4?t=664)
-- [Разница между `useEffect()` и `componentDidMount()`?](https://youtu.be/xZLxdts7ZW4?t=754)
-- [Преимущества хуков?](https://youtu.be/xZLxdts7ZW4?t=819)
-- [Правила (ограничения) использования хуков?](https://youtu.be/xZLxdts7ZW4?t=873)
-- [Что такое поднятие состояния вверх (Lifting State Up)?](https://youtu.be/ngyOYuTrUk8?t=700)
-- [Что делает метод `shouldComponentUpdate`?](https://youtu.be/ngyOYuTrUk8?t=748)
-- [Разница между `createElement()` и `cloneElement()`?](https://youtu.be/ngyOYuTrUk8?t=816)
-- [Что такое `useReducer()`?](https://youtu.be/GZUy2i6QN7o?t=257)
-- [Как реализовать однократное выполнение операции при начальном рендеринге?](https://youtu.be/GZUy2i6QN7o?t=321)
-- [Что такое распределенный компонент?](https://youtu.be/GZUy2i6QN7o?t=386)
-- [Расскажите о хуках `useCallback()`, `useMemo()`, `useImperativeHandle()`, `useLayoutEffect()`?](https://youtu.be/GZUy2i6QN7o?t=449)
-- [Как отрендерить HTML код в React-компоненте?](https://youtu.be/GZUy2i6QN7o?t=572)
-- [Зачем в `setState()` нужно передавать функцию?](https://youtu.be/GZUy2i6QN7o?t=627)
-- [Для чего предназначен метод `registerServiceWorker()` в React?](https://youtu.be/GZUy2i6QN7o?t=665)
+- [Что такое React?](https://youtu.be/7TvS0iKR3_c?t=638) [Common]
+- [Перечислите особенности React?](https://youtu.be/7TvS0iKR3_c?t=671) [Common]
+    - Virtual DOM, SSR, One way (flux) data flow, Reusable components, JSX
+- [Что такое Virtual DOM? Как он работает с React?](https://youtu.be/7TvS0iKR3_c?t=740) [Common]
+    - Virtual DOM - динамический, DOM - не динамический / Reconciliation
+- [Что Такое `JSX`?](https://youtu.be/RpcB5jnJvcI?t=571) [Common]
+- [Что такое React Reconciliation?](https://youtu.be/RpcB5jnJvcI?t=271) [Middle]
+- [Что такое React Fiber?](https://youtu.be/RpcB5jnJvcI?t=689) [Middle]
+- [Разница между состоянием(`state`) и пропсами(`props`)?](https://youtu.be/RpcB5jnJvcI?t=621) [Common]
+
+- [Для чего нужен атрибут `key` при рендере списков?](https://youtu.be/yvOXvZ8aEFo?t=526) [Common]
+- [Что такое `PureComponent`?](https://youtu.be/yvOXvZ8aEFo?t=581) [Middle]
+    - Для оптимизации/Если компонент зависит от пропсов
+- [Что такое Компонент высшего порядка (Higher-Order Component / HOC)?](https://youtu.be/yvOXvZ8aEFo?t=637) [Middle]
+- [Разница между управляемыми (controlled) и не управляемыми (uncontrolled) компонентами?](https://youtu.be/yvOXvZ8aEFo?t=684) [Middle]
+- [Методы жизненного цикла компонента в React?](https://youtu.be/RpcB5jnJvcI?t=35) [Common]
+- [Стадии жизненного цикла компонента в React?](https://youtu.be/RpcB5jnJvcI?t=173) [Common]
+- [Что такое портал (`Portal`)?](https://youtu.be/RpcB5jnJvcI?t=342) [Middle]
+- [Что такое контекст (`Context`)?](https://youtu.be/RpcB5jnJvcI?t=390) [Middle]
+- [Что такое React хуки (Hooks)?](https://youtu.be/RpcB5jnJvcI?t=475) [Common]
+- [Что такое фрагмент (`Fragment`)? Почему фрагмент лучше, чем `div`?](https://youtu.be/RpcB5jnJvcI?t=689) [Common]
+- [Что такое синтетические события в React?](https://youtu.be/81yRgVQ1ciM?t=34) [Common]
+- [Что такое React-ссылка (Ref)? Как создать ссылку?](https://youtu.be/81yRgVQ1ciM?t=69) [Common/Middle]
+- [Разница между теневым (Shadow) и виртуальным (Virtual) DOM?](https://youtu.be/81yRgVQ1ciM?t=112) [Middle]
+- [Назовите преимущества использования React?](https://youtu.be/81yRgVQ1ciM?t=170) Common
+- [Что такое условный рендеринг (Conditional Rendering)? Как его выполнить?](https://youtu.be/81yRgVQ1ciM?t=224) Common
+- [Разница между `React` и `ReactDOM`?](https://youtu.be/81yRgVQ1ciM?t=305) Common
+- [Как React обрабатывает, или ограничивает использование пропсов определенного типа?](https://youtu.be/81yRgVQ1ciM?t=413) Middle
+- [Что такое строгий режим в React? Его преимущества?](https://youtu.be/81yRgVQ1ciM?t=469) Middle
+- [Что такое «бурение пропсов» (Prop Drilling)? Как его избежать?](https://youtu.be/81yRgVQ1ciM?t=532) Middle
+- [Что такое «опрос» (Polling)? Как его реализовать в React?](https://youtu.be/81yRgVQ1ciM?t=597) Middle
+    - SetInterval: The Old Way to Poll (send req in interval)/ Webhooks
+- [Что такое `ReactDOMServer`?](https://youtu.be/81yRgVQ1ciM?t=763) Middle
+- [Что такое предохранители (Error Boundaries)?](https://youtu.be/HBSAjY-xh3k?t=36) Middle
+- [Что такое «ленивая» (Lazy) функция?](https://youtu.be/HBSAjY-xh3k?t=103) Middle
+- [Разница между рендерингом и монтированием?](https://youtu.be/HBSAjY-xh3k?t=149) Middle
+- [Что такое `сhildren`?](https://youtu.be/HBSAjY-xh3k?t=191) Common
+- [Что такое события указателя (Pointer Events)?](https://youtu.be/HBSAjY-xh3k?t=239) Middle
+- [Что такое инверсия наследования (Inheritance Inversion)?](https://youtu.be/HBSAjY-xh3k?t=301) Middle
+- [Как в React реализовать двустороннее связывание данных?](https://youtu.be/HBSAjY-xh3k?t=355) 
+- [Разница между классовым и функциональным компонентами?](https://youtu.be/xZLxdts7ZW4?t=664) Common
+- [Разница между `useEffect()` и `componentDidMount()`?](https://youtu.be/xZLxdts7ZW4?t=754) Common
+- [Преимущества хуков?](https://youtu.be/xZLxdts7ZW4?t=819) Middle
+- [Правила (ограничения) использования хуков?](https://youtu.be/xZLxdts7ZW4?t=873) Middle
+- [Что такое поднятие состояния вверх (Lifting State Up)?](https://youtu.be/ngyOYuTrUk8?t=700) Middle
+- [Что делает метод `shouldComponentUpdate`?](https://youtu.be/ngyOYuTrUk8?t=748) Middle
+- [Разница между `createElement()` и `cloneElement()`?](https://youtu.be/ngyOYuTrUk8?t=816) [How old are you]
+- [Что такое `useReducer()`?](https://youtu.be/GZUy2i6QN7o?t=257) Middle
+- [Как реализовать однократное выполнение операции при начальном рендеринге?](https://youtu.be/GZUy2i6QN7o?t=321) Common
+- [Что такое распределенный компонент?](https://youtu.be/GZUy2i6QN7o?t=386) Middle
+- [Расскажите о хуках `useCallback()`, `useMemo()`, `useImperativeHandle()`, `useLayoutEffect()`?](https://youtu.be/GZUy2i6QN7o?t=449) Middle
+- [Как отрендерить HTML код в React-компоненте?](https://youtu.be/GZUy2i6QN7o?t=572) 
+    - dangerouslysetinnerhtml В случае если сервер вернул markup
+- [Зачем в `setState()` нужно передавать функцию?](https://youtu.be/GZUy2i6QN7o?t=627) Common
+    - Получить доступ к актуальным state/props, спросить про callback функцию
+- [Для чего предназначен метод `registerServiceWorker()` в React?](https://youtu.be/GZUy2i6QN7o?t=665) Middle

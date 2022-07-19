@@ -3,12 +3,12 @@
   <span>TypeScript:</span>
 </h3>
 
-- [Что такое TypeScript?](https://youtu.be/R76_xPjzUd8?t=669)
-- [Основные компоненты TypeScript?](https://youtu.be/R76_xPjzUd8?t=730)
-- [Назовите особенности TypeScript?](https://youtu.be/R76_xPjzUd8?t=796)
-- [Что такое декораторы?](https://youtu.be/TOn-1RrowKE?t=31)
-- [Поддерживает ли TypeScript перегрузку функций?](https://youtu.be/TOn-1RrowKE?t=77)
-- [Разница между типом (`type`) и интерфейсом (`interface`)?](https://youtu.be/TOn-1RrowKE?t=121)
+- [Что такое TypeScript?](https://youtu.be/R76_xPjzUd8?t=669) [Common]
+- [Основные компоненты TypeScript?](https://youtu.be/R76_xPjzUd8?t=730) [Common]
+- [Назовите особенности TypeScript?](https://youtu.be/R76_xPjzUd8?t=796) [Common]
+- [Что такое декораторы?](https://youtu.be/TOn-1RrowKE?t=31) [Middle]
+- [Поддерживает ли TypeScript перегрузку функций?](https://youtu.be/TOn-1RrowKE?t=77) [Middle]
+- [Разница между типом (`type`) и интерфейсом (`interface`)?](https://youtu.be/TOn-1RrowKE?t=121) 
 - [Что такое JSX в TypeScript? Какие режимы JSX поддерживает TypeScript?](https://youtu.be/TOn-1RrowKE?t=212)
 - [Что такое директивы с тремя наклонными чертами (Triple-Slash Directives), их типы?](https://youtu.be/TOn-1RrowKE?t=269)
 - [Что такое внешние объявления переменных (ambient declaration) в TypeScript?](https://youtu.be/TOn-1RrowKE?t=339)
